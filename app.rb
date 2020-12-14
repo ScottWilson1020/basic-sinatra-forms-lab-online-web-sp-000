@@ -10,8 +10,8 @@ class App < Sinatra::Base
     @name = params["name"]
     @coach = params["coach"]
     @point_guard = params["point_guard"]
-    @sg = params["sg"]
-    @sf = params["sf"]
+    @small_guard = params["small_guard"]
+    @small_forward = params["small_forward"]
     @pf = params["pf"]
     @center = params["c"]
 
