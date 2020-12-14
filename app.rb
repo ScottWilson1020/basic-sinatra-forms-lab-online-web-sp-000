@@ -12,8 +12,8 @@ class App < Sinatra::Base
     @point_guard = params["point_guard"]
     @small_guard = params["small_guard"]
     @small_forward = params["small_forward"]
-    @pf = params["pf"]
-    @center = params["c"]
+    @power_foward = params["power_foward"]
+    @center = params["center"]
 
     erb :team
   end
